@@ -62,7 +62,7 @@ const BarChart = () => {
 
     return (
         <Chart
-            options={{ ...options, xaxis: mockData.labels }}
+            options={{ ...options, xaxis: chartData.labels }}
             series={chartData.series}
             type="bar"
             height="240"
